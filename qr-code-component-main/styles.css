@@ -1,0 +1,27 @@
+body {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+}
+.light-gray-bg {
+    background-color: hsl(212, 45%, 89%);
+}
+
+.white {
+    color: hsl(0, 0%, 100%);
+}
+
+.grayish-blue {
+    color:  hsl(220, 15%, 55%);
+}
+
+.dark-blue {
+    color:hsl(218, 44%, 22%);
+}
+
+.text-size-15 {
+    font-size: 15px;
+}
+
+.border-25 {
+    border-radius: 25px;
+}
