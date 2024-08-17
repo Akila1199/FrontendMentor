@@ -1,0 +1,85 @@
+body {
+    background-color: hsl(234, 29%, 20%);
+}
+.container {
+    background-color: white;
+}
+body, ul, li {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+.empty-field {
+    outline: 3px solid red;
+    box-shadow: 0 0 10px red;
+}
+
+li {
+    list-style: none;
+}
+
+.btn-dark:hover {
+    background: linear-gradient(45deg, hsl(4, 100%, 67%),  hsl(4, 100%, 56%)); /* Gradient colors */
+    box-shadow: 0 8px 16px rgba(255, 113, 103, 0.3)
+}
+
+#userEmail:focus {
+    border-color: hsl(235, 6%, 45%);
+    box-shadow: none;
+}
+
+.border-25 {
+  border-radius: 25px;
+}
+
+.br-10 {
+  border-radius: 10px;
+}
+
+.error-state {
+  color: #842029;
+  background-color: #f8d7da;
+  border: 1px solid #842029;
+}
+.thankyou-container {
+  width: 50%;
+}
+@media (max-width: 576px) {
+  .thankyou-container, .container {
+    height: 100%;
+    border-radius: 0;
+    width: 100%;
+  }
+}
+
+@media (min-width: 576px) {
+  .container {
+      max-width: 50%;
+      padding: 18px;
+  }
+  .thankyou-container {
+    width: 50%;
+  }
+  .half-side {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .half-side img {
+      height: 100%;
+      object-fit: cover;
+  }
+  .first {
+      order: 2;
+  }
+  .second {
+      order: 1;
+  }
+}
+
+@media (min-width: 900px) {
+  .thankyou-container {
+    width: 35%;
+  }
+}
